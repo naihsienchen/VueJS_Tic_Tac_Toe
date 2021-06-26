@@ -9,9 +9,9 @@
 - event handler
 
 ## boardgame.html
-[ ] player turns
-[X] O/X alternative
-[ ] winning combination (use id)
-[ ] linking scoreboard
+- [ ] player turns
+- [X] O/X alternative
+- [ ] winning combination (use id)
+- [ ] linking scoreboard
 
 
