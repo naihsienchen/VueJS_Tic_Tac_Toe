@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	    <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	</head>
+	<body>
+	
+	<div id="app">
+		<button type="button" class="btn btn-primary">{{message}}</button>
+	</div>
+	
+	<script>
+	var app = new Vue({
+		el: '#app',
+		data:{
+			message: 'Do not go gently into that good night'	
+		}
+	});
+	
+	//step 1: open console
+	//step 2: write the following line
+	//	app.message="Rage, rage against the dying of the light";
+	
+	</script>
+	</body>
+</html>
